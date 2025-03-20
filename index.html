@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>金融行业个人博客</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fa;
+            color: #333;
+        }
+
+        /* 头部样式 */
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        /* 导航栏样式 */
+        nav {
+            background-color: #004080;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        /* 主要内容区域样式 */
+        main {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        /* 文章列表区域样式 */
+        .posts {
+            flex: 3;
+            padding: 20px;
+        }
+
+        .post {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #004080;
+        }
+
+        .post h2 {
+            margin-top: 0;
+            color: #003366;
+        }
+
+        .post-meta {
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        /* 侧边栏样式 */
+        .sidebar {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .sidebar section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 页脚样式 */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <h1>金融洞察博客</h1>
+        <p>探索金融世界，分享专业见解</p>
+    </header>
+
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="#">市场分析</a></li>
+            <li><a href="#">投资策略</a></li>
+            <li><a href="#">行业动态</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main>
+        <!-- 文章列表 -->
+        <div class="posts">
+            <article class="post">
+                <h2>当前股票市场趋势分析</h2>
+                <p class="post-meta">发布时间：2025-03-20 | 分类：市场分析</p>
+                <p>近期股票市场呈现出复杂的态势，多种因素相互交织影响着市场的走向。本文将深入剖析这些因素，为投资者提供有价值的参考。</p>
+                <a href="#">阅读全文</a>
+            </article>
+            <article class="post">
+                <h2>稳健投资策略分享</h2>
+                <p class="post-meta">发布时间：2025-03-15 | 分类：投资策略</p>
+                <p>在波动的金融市场中，如何制定稳健的投资策略是每个投资者关心的问题。本文将介绍一些实用的投资方法和技巧。</p>
+                <a href="#">阅读全文</a>
+            </article>
+        </div>
+
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <section>
+                <h3>关于博主</h3>
+                <p>我是一名资深金融从业者，拥有多年的市场分析和投资经验。在这里，我将分享我的专业知识和见解。</p>
+            </section>
+            <section>
+                <h3>热门分类</h3>
+                <ul>
+                    <li><a href="#">股票市场</a></li>
+                    <li><a href="#">债券投资</a></li>
+                    <li><a href="#">宏观经济</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2025 金融洞察博客版权所有</p>
+    </footer>
+</body>
+
+</html>    
